@@ -1,0 +1,43 @@
+/* Import React Bootstrap styles */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Custom styling for the App */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Custom styling for React Bootstrap components */
+.navbar-custom {
+  background-color: #282c34;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #61dafb;
+}
